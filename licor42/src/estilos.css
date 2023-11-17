@@ -1,0 +1,59 @@
+.contenedor {
+	position: relative;
+	height: 100vh;
+	/* Altura total de la ventana del navegador */
+	width: 100vw;
+	/* Ancho total de la ventana del navegador */
+	overflow: hidden;
+}
+
+.pantalla {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.active {
+	opacity: 1;
+}
+
+.inactive {
+	opacity: 0;
+}
+
+.flecha {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	background-color: rgba(255, 255, 255, 0.5);
+	border: none;
+	cursor: pointer;
+	z-index: 10;
+}
+
+.izquierda {
+	left: 10px;
+}
+
+.derecha {
+	right: 10px;
+}
+
+.pantalla-uno,
+.pantalla-dos {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	width: 100%;
+}
+
+.pantalla-uno {
+	background-color: #f0f0f0;
+}
+
+.pantalla-dos {
+	background-color: #e0e0e0;
+}
