@@ -1,0 +1,11 @@
+version: '3'
+services:
+  sqlite:
+    image: mariadb:latest
+    volumes:
+      - ./sqlite:/data
+  grafana:
+    image: grafana/grafana:latest
+    ports:
+      - "3000:3000"
+
