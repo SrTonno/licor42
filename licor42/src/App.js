@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router } from "react-router-dom";
-import ContenedorPantallas from "./ContenedorPantallas";
+import ContenedorPantallas from "./components/ContenedorPantallas";
 import "./estilos.css";
 
 function App() {

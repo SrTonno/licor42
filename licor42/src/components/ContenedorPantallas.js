@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import PantallaUno from "./PantallaUno";
 import PantallaDos from "./PantallaDos";
-import "./estilos.css";
+import "./../estilos.css";
 
 function ContenedorPantallas() {
 	const [pantallaActual, setPantallaActual] = useState(1);
