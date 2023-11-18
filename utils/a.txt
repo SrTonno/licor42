@@ -1,0 +1,2 @@
+# Nmap 7.80 scan initiated Fri Nov 17 18:33:21 2023 as: nmap -p 3307 -oN a.txt 192.168.0.0
+# Nmap done at Fri Nov 17 18:33:24 2023 -- 1 IP address (0 hosts up) scanned in 3.02 seconds
