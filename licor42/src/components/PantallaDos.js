@@ -33,6 +33,12 @@
 				>
 					←
 					</button>
+					<button
+					className="flecha derecha"
+					onClick={() => navigate("/PantallaAnalisis")}
+				>
+					→
+					</button>
 					<div className="container-right">
 						<div className="container-up-right">
 							<div className="kpi-1">

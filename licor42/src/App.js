@@ -9,6 +9,7 @@ import {
 	Routes,
   } from "react-router-dom";
 import PantallaUno from "./components/PantallaUno";
+import PantallaAnalisis from "./components/PantallaAnalisis";
 
 function App() {
 	return (
@@ -17,6 +18,7 @@ function App() {
 				<Route path="/" element={<PantallaDos />} />
 				<Route path="/DetalleIndividual" element={<PantallaIndividual />} />
 				<Route path="/Flujos" element={<PantallaUno />} />
+				<Route path="/PantallaAnalisis" element={<PantallaAnalisis />} />
 			</Routes>
 		</Router>
 	);
