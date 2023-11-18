@@ -1,4 +1,4 @@
-<h1 align="center">🌟 Nombre de tu Aplicación 🌟</h1>
+<h1 align="center">🌟 Dashboard innovadora Licor42 🌟</h1>
 
 <p align="center">
 Breve descripción de lo que hace tu aplicación.
