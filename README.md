@@ -1,9 +1,5 @@
 <h1 align="center">🌟 Dashboard innovadora Licor42 🌟</h1>
 
-<p align="center">
-Breve descripción de lo que hace tu aplicación.
-</p>
-
 ## Índice
 
 - [Pre-requisitos](#pre-requisitos)
