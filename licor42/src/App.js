@@ -1,13 +1,23 @@
 import React from "react";
-import { BrowserRouter as Router } from "react-router-dom";
-import ContenedorPantallas from "./components/ContenedorPantallas";
+import PantallaDos from "./components/PantallaDos";
 import "./estilos.css";
 import "./DiagramStyles.css";
+import PantallaIndividual from "./components/PantallaIndividual";
+import {
+	BrowserRouter as Router,
+	Route,
+	Routes,
+  } from "react-router-dom";
+import PantallaUno from "./components/PantallaUno";
 
 function App() {
 	return (
 		<Router>
-			<ContenedorPantallas />
+			<Routes>
+				<Route path="/" element={<PantallaDos />} />
+				<Route path="/DetalleIndividual" element={<PantallaIndividual />} />
+				<Route path="/Flujos" element={<PantallaUno />} />
+			</Routes>
 		</Router>
 	);
 }

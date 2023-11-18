@@ -23,7 +23,7 @@
 .motor-box {
   border: 3px solid black;
   padding: 1vw; /* Uso de vw para un padding relativo */
-  margin-bottom: 0.5vw; /* Espacio para el cable */
+  margin-bottom: 0; /* Espacio para el cable */
 
 }
 
@@ -34,16 +34,18 @@
 
 .flow-cable {
   background-color: black;
-  height: 6vh; /* Altura del cable */
+  height: 7vh; /* Altura del cable */
   width: 0.2vw; /* Ancho del cable */
+  
 }
 
 .horizontal-connector {
-  width: 86.6%;
+  width: 86.4%; 
   height: 5px;
   background-color: black;
   position: absolute;
-  bottom: 78.33vh; /* Alineación con la parte inferior de los cables */
+  bottom: 78.33vh;
+  right: 89px;
 }
 
 .intermediate-consumption {
@@ -56,17 +58,17 @@
 }
 
 .intermediate-consumption-cable {
-  background-color: black;
-  width: 14vw; /* Longitud del cable */
+  background-color: #0f0101 ;
+  width: 15vw; /* Longitud del cable */
   height: 3px;
   position: absolute;
-  left: -195px; /* Ajusta para alinear con el vertical-connector */
+  left: -277px; /* Ajusta para alinear con el vertical-connector */
 }
 
 .intermediate-consumption-box {
   border: 3px solid black;
   padding: 1vw;
-  margin-left: 40px; /* Espacio después del cable */
+  margin-left: 0px; /* Espacio después del cable */
 }
 
 /* Estilos para la caja de consumo intermedio en el lado izquierdo */
@@ -80,11 +82,10 @@
 }
 
 .left-intermediate-consumption-cable {
-  background-color: black;
-  width: 14vw; /* Longitud del cable */
+  background-color: #0f0101;
   height: 3px;
   position: absolute;
-  right: -195px; /* Ajusta para alinear con el vertical-connector */
+  right: -235px; /* Ajusta para alinear con el vertical-connector */
 }
 
 .left-intermediate-consumption-box {
@@ -95,11 +96,20 @@
 
 .vertical-connector {
   width: 4px;
-  height:59.5vh; /* Altura ajustada */
+  height:30vh; /* Altura ajustada */
   background-color: black;
   position: absolute;
   left: 49.9%;
-  bottom: 19.2vh;
+  bottom: 50vh;
+}
+
+.vertical-connector-2{
+  width: 4px;
+  height:30.5vh; /* Altura ajustada */
+  background-color: #000000;
+  position: absolute;
+  left: 49.9%;
+  bottom: 19.5vh;
 }
 
 .plant-box {

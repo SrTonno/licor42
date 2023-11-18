@@ -35,14 +35,28 @@
 
 .izquierda {
 	left: 10px;
+
 }
 
 .derecha {
 	right: 10px;
 }
 
+h1 {
+    position: absolute; /* Posición absoluta para ubicarse en relación con su contenedor */
+    top: 10px; /* Alinear en la parte superior */
+    margin-top: 0; /* Ajustar el margen superior si es necesario */
+    z-index: 2; /* Asegurar que se superponga sobre el iframe */
+    font-family: "Candara", cursive;
+    font-size: 40px;
+	left: 110px;
+    text-align: left;
+    color: black;
+}
+
 .pantalla-uno,
-.pantalla-dos {
+.pantalla-dos,
+.pantalla-individual {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -156,16 +170,38 @@
 	justify-content: center;
 }
 
-.kpi-1-2{
+.kpi-1{
 	display:flex;
 	flex-direction: row;
 /*	background-color: red; */
 	width: 100%;
 }
 
-.kpi-3-4{
+.kpi-2-3{
 	display:flex;
 	flex-direction: row;
 /*	background-color: yellow; */
 	width: 100%;
+}
+
+.container-left-2, .container-right-2 {
+	/* Ocupa la mitad del espacio disponible */
+		display:flex;
+		flex-direction: column;
+		justify-content: center;
+		width: 100%;
+		height: 100%;
+		margin-top: 4%;
+}
+
+h2{
+	position: absolute; /* Posición absoluta para ubicarse en relación con su contenedor */
+    top: 0; /* Alinear en la parte superior */
+    margin-top: 0; /* Ajustar el margen superior si es necesario */
+    z-index: 2; /* Asegurar que se superponga sobre el iframe */
+    font-family: "Candara", cursive;
+    font-size: 40px;
+	right:0; 
+    text-align: left;
+    color: red;
 }
